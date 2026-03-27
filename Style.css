@@ -81,7 +81,7 @@
 
 @media(max-width:700px) and (min-width:402px){
     .calculator-2{
-        margin-top:30%;
+        margin-top:28%;
         min-width: 70vw;
         height: 54vh;
         margin: 8%;
@@ -104,7 +104,7 @@
 
 @media(max-width:402px){
     .calculator-2{
-        margin-top:30%;
+        margin-top:28%;
         min-width: 78vw;
         height: 60vh;
         margin: 8%;
@@ -127,7 +127,7 @@
 
 @media(max-width:392px){
     .calculator-2{
-        margin-top:30%;
+        margin-top:28%;
         min-width: 78vw;
         height: 64vh;
         margin: 8%;
