@@ -133,5 +133,8 @@ html,body{
     .span:hover .drop-down{
     display: block;
     z-index: 10;
-}
+    }
+    .box-1{
+        height: 550px;
+    }
 }
