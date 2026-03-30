@@ -47,23 +47,30 @@
             </div>
 
             <div class="number-result">
-                <label class="label">Enter binary number</label>
-                <input class="input" placeholder="Enter binary number">
+                <label class="label" id="inputLabel">Enter binary number</label>
+                <input class="input" id="mainInput" placeholder="Enter binary number">
                 <div class="converter">
-                    <div><p>= Convert</p></div>
-                    <div><p>= Reset</p></div>
-                    <div><p>= Swap</p></div>
+                    <div><p class="convert-btn">= Convert</p></div>
+                    <div><p class="reset-btn">= Reset</p></div>
+                    <div><p class="swap-btn">= Swap</p></div>
                 </div>
-                <label class="label">Decimal Result</label>
-                <input class="input">
-                <label class="label">Octal Result</label>
-                <input class="input">
-                <label class="label">Hexadecimal Result</label>
-                <input class="input">
-                <label class="label">Binary Result</label>
-                <input class="input">
+
+                    <label class="label">Decimal Result</label>
+                    <input class="input" id="decimal" readonly>
+
+                    <label class="label">Octal Result</label>
+                    <input class="input" id="octal" readonly>
+
+                    <label class="label">Hexadecimal Result</label>
+                    <input class="input" id="hex" readonly>
+
+                    <label class="label">Binary Result</label>
+                    <input class="input" id="binary" readonly>
+
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
